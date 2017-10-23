@@ -39,9 +39,6 @@ public class Categories {
     @Column(name = "weight", nullable = false, length = 5)
     private int weight;
 
-    @Column(name = "status", nullable = false, length = 2)
-    private int status;
-
     @Column(name = "menu_id", nullable = false, length = 6)
     private int menuId;
 
@@ -108,15 +105,6 @@ public class Categories {
 
     public void setWeight(int weight) {
         this.weight = weight;
-    }
-
-
-    public int getStatus() {
-        return status;
-    }
-
-    public void setStatus(int status) {
-        this.status = status;
     }
 
     public int getMenuId() {

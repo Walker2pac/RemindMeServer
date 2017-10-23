@@ -41,9 +41,6 @@ public class Dish {
     @Column(name = "weight", nullable = false, length = 5)
     private int weight;
 
-    @Column(name = "status", nullable = false, length = 2)
-    private int status;
-
     @Column(name = "category_id", nullable = false, length = 4)
     private int categoryId;
 
@@ -114,14 +111,6 @@ public class Dish {
 
     public void setWeight(int weight) {
         this.weight = weight;
-    }
-
-    public int getStatus() {
-        return status;
-    }
-
-    public void setStatus(int status) {
-        this.status = status;
     }
 
     public int getCategoryId() {

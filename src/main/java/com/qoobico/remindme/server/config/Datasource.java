@@ -23,7 +23,7 @@ public class Datasource {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.postgresql.Driver");
-        dataSource.setUrl("jdbc:postgresql://localhost:5432/menutubeteika");
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/tubedb");
         dataSource.setUsername("postgres");
         dataSource.setPassword("kasya010203");
         return dataSource;
